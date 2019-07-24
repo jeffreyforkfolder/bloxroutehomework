@@ -23,7 +23,7 @@ The deliverable
 A command line program that does it.
 
 build it with make (Makefile incldued). Requires gcc and presense of openssl library.
-
+```
   ./program -h
   ./program [-h|-f <file_name> [-l | -s <hash>]]
 
@@ -32,6 +32,7 @@ build it with make (Makefile incldued). Requires gcc and presense of openssl lib
    -l        list all hunded longest transactions
    -s <hash> lookup entry by hash
    -t        print traces
+```
 
 Example usage:
 
