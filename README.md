@@ -5,7 +5,7 @@ Interview assignment for bloxroute.
 The assignment
 ==============
 
-* Parse a file formatted according to bitcoin protocol
+* Parse a file formatted according to bitcoin protocol (clarification: the sample file only had a block message, so that's what I am doing here)
 * The relevant bitcoin protocol can be found here (https://en.bitcoin.it/wiki/Protocol_documentation)
 * Extract the 100 longest transactions in the block (clarification: by size of transaction data, not by length of transaction chain)
 * Create data structure(s) that will allow:
