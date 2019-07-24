@@ -34,16 +34,16 @@ build it with make (Makefile incldued). Requires gcc and presense of openssl lib
 Example usage:
 
 Find a transaction by hash in the list of 100 longest transaction and print it:
-
+```
   ./program -f sample_block_bin -s d483d48decfa82509f4dd070b05010f589efcaebc95016e2f1ec56a328cf67bd 
   lookup of hash=d483d48decfa82509f4dd070b05010f589efcaebc95016e2f1ec56a328cf67bd
   lookup of hash=d483d48decfa82509f4dd070b05010f589efcaebc95016e2f1ec56a328cf67bd
 
   found entry!
   block_index=0 tx_index=30760 start_pos=6930429 end_pos=6930655 length=226 hash=d483d48decfa82509f4dd070b05010f589efcaebc95016e2f1ec56a328cf67bd
-
+```
 List the 100 longest transactions
-
+```
   ./program -f sample_block_bin -l
 
   block_index=0 tx_index=30812 start_pos=6942172 end_pos=6942398 length=226 hash=d3b53fa254d25d1515ac508a11e40850ad87b8e2bbe7e6b18f6ce01035b51a27
@@ -53,3 +53,4 @@ List the 100 longest transactions
   block_index=0 tx_index=30808 start_pos=6941268 end_pos=6941494 length=226 hash=d3bfea499ca8243e75e601d28331b13575646f6967a4dfb232c7dbe8d7a7cfa5
   block_index=0 tx_index=30807 start_pos=6941042 end_pos=6941268 length=226 hash=e8b92cd54150f45389aa7bae7e2966f0d92abf346b390298b00da4e83a3d05e9
   ....
+```
