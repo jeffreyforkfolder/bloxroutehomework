@@ -3,7 +3,7 @@
 The assignment
 ==============
 
-* Parse the bitcoin block in the following link (https://drive.google.com/file/d/1TcOGYjRJ7ZHXWfmljXBWvXPsu0JukBuB/view?usp=sharing)
+* Parse a file formatted according to bitcoin protocol
 * The relevant bitcoin protocol can be found here (https://en.bitcoin.it/wiki/Protocol_documentation)
 * Extract the 100 longest transactions in the block (clarification: by size of transaction data, not by length of transaction chain)
 * Create data structure(s) that will allow:
