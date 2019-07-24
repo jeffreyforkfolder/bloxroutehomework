@@ -23,6 +23,8 @@ The deliverable
 A command line program that does it.
 
 build it with make (Makefile incldued). Requires gcc and presense of openssl library.
+Works on Ubuntu 18.94.2 LTS
+
 ```
   ./program -h
   ./program [-h|-f <file_name> [-l | -s <hash>]]
