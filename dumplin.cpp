@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 
     if (fp != nullptr) {
         while ( (ch = fgetc(fp)) != -1)  {
-            fprintf(stdout,"%x", ch );
+            fprintf(stdout,"%02x", ch );
         }
     }
     return 0;
